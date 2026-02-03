@@ -11,20 +11,20 @@
 
 
 ## 项目结构
-telecom-churn-analysis     
-├── telecom_churn_analysis.py              
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv   
-├── telecom_churn_processed.csv            
-├── analysis_summary.txt                   
-├── images                                
+telecom-churn-analysis/                            
+├── telecom_churn_analysis.py                 (主脚本)                       
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv      (原始数据)             
+├── telecom_churn_processed.csv               (处理数据)  
+├── analysis_summary.txt                      (结果摘要)  
+├── images                                    (图表目录)  
 │   ├── churn_overview.png                 
 │   ├── demographic_analysis.png           
 │   ├── service_analysis.png               
 │   ├── contract_payment_analysis.png      
 │   ├── financial_analysis.png             
 │   └── correlation_analysis.png           
-├── requirements.txt                       
-└── README.md                             
+├── requirements.txt                          (依赖列表)                    
+└── README.md                                 (项目说明)
 
 
 ## 技术栈
@@ -76,16 +76,17 @@ telecom-churn-analysis
 ```bash
 pip install -r requirements.txt
 
+
 ### 运行分析
 python telecom_churn_analysis.py
 
-查看结果
+### 查看结果
    - 分析结果将输出到控制台		
    - 可视化图表将保存到images文件夹
    - 处理后的数据将保存为telecom_churn_processed.csv
    - 分析摘要将保存为analysis_summary.txt
 
-文件说明
+### 文件说明
    - telecom_churn_analysis.py: 主分析脚本，包含完整的数据处理和分析流程
    - WA_Fn-UseC_-Telco-Customer-Churn.csv: 原始数据集，来自Kaggle
    - telecom_churn_processed.csv: 清洗和处理后的数据集
