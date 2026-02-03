@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files (large files)
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 项目特定的忽略文件
+telecom_churn_processed.csv  # 处理后的数据（如果不想上传可以加上）
