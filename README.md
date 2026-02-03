@@ -12,19 +12,19 @@
 
 ## 项目结构
 telecom-churn-analysis/
-├── telecom_churn_analysis.py # 主分析脚本
-├── WA_Fn-UseC_-Telco-Customer-Churn.csv # 原始数据集
-├── telecom_churn_processed.csv # 处理后的数据
-├── analysis_summary.txt # 分析结果摘要
-├── images/ # 可视化图表
-│ ├── churn_overview.png # 流失概览
-│ ├── demographic_analysis.png # 人口特征分析
-│ ├── service_analysis.png # 服务使用分析
-│ ├── contract_payment_analysis.png # 合同支付分析
-│ ├── financial_analysis.png # 财务指标分析
-│ └── correlation_analysis.png # 相关性分析
-├── requirements.txt # 依赖包列表
-└── README.md # 项目说明
+├── telecom_churn_analysis.py              # 主分析脚本
+├── WA_Fn-UseC_-Telco-Customer-Churn.csv   # 原始数据集
+├── telecom_churn_processed.csv            # 处理后的数据
+├── analysis_summary.txt                   # 分析结果摘要
+├── images/                                # 可视化图表
+│   ├── churn_overview.png                 # 流失概览
+│   ├── demographic_analysis.png           # 人口特征分析
+│   ├── service_analysis.png               # 服务使用分析
+│   ├── contract_payment_analysis.png      # 合同支付分析
+│   ├── financial_analysis.png             # 财务指标分析
+│   └── correlation_analysis.png           # 相关性分析
+├── requirements.txt                       # 依赖包列表
+└── README.md                              # 项目说明
 
 
 ## 技术栈
