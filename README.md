@@ -1,92 +1,93 @@
-# µçÐÅ¿Í»§Á÷Ê§·ÖÎöÏîÄ¿
+# ç”µä¿¡å®¢æˆ·æµå¤±åˆ†æžé¡¹ç›®
 
-## ÏîÄ¿¸ÅÊö
-±¾ÏîÄ¿Í¨¹ý¶ÔµçÐÅ¿Í»§Á÷Ê§Êý¾ÝµÄ¶àÎ¬¶È·ÖÎö£¬Ê¶±ð¹Ø¼üÁ÷Ê§Çý¶¯ÒòËØ£¬ÎªÆóÒµÌá¹©Êý¾ÝÇý¶¯µÄ¾ö²ßÖ§³Ö¡£·ÖÎöº­¸ÇÊý¾ÝÔ¤´¦Àí¡¢Ì½Ë÷ÐÔ·ÖÎö¡¢¿ÉÊÓ»¯Õ¹Ê¾ºÍÒµÎñ¶´²ìµÈÍêÕûÁ÷³Ì¡£
+## é¡¹ç›®æ¦‚è¿°
+æœ¬é¡¹ç›®é€šè¿‡å¯¹ç”µä¿¡å®¢æˆ·æµå¤±æ•°æ®çš„å¤šç»´åº¦åˆ†æžï¼Œè¯†åˆ«å…³é”®æµå¤±é©±åŠ¨å› ç´ ï¼Œä¸ºä¼ä¸šæä¾›æ•°æ®é©±åŠ¨çš„å†³ç­–æ”¯æŒã€‚åˆ†æžæ¶µç›–æ•°æ®é¢„å¤„ç†ã€æŽ¢ç´¢æ€§åˆ†æžã€å¯è§†åŒ–å±•ç¤ºå’Œä¸šåŠ¡æ´žå¯Ÿç­‰å®Œæ•´æµç¨‹ã€‚
 
-## ÏîÄ¿Ä¿±ê
-1. Ê¶±ð¿Í»§Á÷Ê§µÄÖ÷ÒªÓ°ÏìÒòËØ
-2. ·ÖÎö²»Í¬¿Í»§ÈºÌåµÄÁ÷Ê§ÌØÕ÷
-3. ÎªÆóÒµÌá¹©½µµÍÁ÷Ê§ÂÊµÄ²ßÂÔ½¨Òé
-4. ½¨Á¢¿É¸´ÓÃµÄÊý¾Ý·ÖÎö¿ò¼Ü
+## é¡¹ç›®ç›®æ ‡
+1. è¯†åˆ«å®¢æˆ·æµå¤±çš„ä¸»è¦å½±å“å› ç´ 
+2. åˆ†æžä¸åŒå®¢æˆ·ç¾¤ä½“çš„æµå¤±ç‰¹å¾
+3. ä¸ºä¼ä¸šæä¾›é™ä½Žæµå¤±çŽ‡çš„ç­–ç•¥å»ºè®®
+4. å»ºç«‹å¯å¤ç”¨çš„æ•°æ®åˆ†æžæ¡†æž¶
 
-## ÏîÄ¿½á¹¹
+
+## é¡¹ç›®ç»“æž„
 telecom-churn-analysis/
-©À©¤©¤ telecom_churn_analysis.py # Ö÷·ÖÎö½Å±¾
-©À©¤©¤ WA_Fn-UseC_-Telco-Customer-Churn.csv # Ô­Ê¼Êý¾Ý¼¯
-©À©¤©¤ telecom_churn_processed.csv # ´¦ÀíºóµÄÊý¾Ý
-©À©¤©¤ analysis_summary.txt # ·ÖÎö½á¹ûÕªÒª
-©À©¤©¤ images/ # ¿ÉÊÓ»¯Í¼±í
-©¦ ©À©¤©¤ churn_overview.png # Á÷Ê§¸ÅÀÀ
-©¦ ©À©¤©¤ demographic_analysis.png # ÈË¿ÚÌØÕ÷·ÖÎö
-©¦ ©À©¤©¤ service_analysis.png # ·þÎñÊ¹ÓÃ·ÖÎö
-©¦ ©À©¤©¤ contract_payment_analysis.png # ºÏÍ¬Ö§¸¶·ÖÎö
-©¦ ©À©¤©¤ financial_analysis.png # ²ÆÎñÖ¸±ê·ÖÎö
-©¦ ©¸©¤©¤ correlation_analysis.png # Ïà¹ØÐÔ·ÖÎö
-©À©¤©¤ requirements.txt # ÒÀÀµ°üÁÐ±í
-©¸©¤©¤ README.md # ÏîÄ¿ËµÃ÷
+â”œâ”€â”€ telecom_churn_analysis.py # ä¸»åˆ†æžè„šæœ¬
+â”œâ”€â”€ WA_Fn-UseC_-Telco-Customer-Churn.csv # åŽŸå§‹æ•°æ®é›†
+â”œâ”€â”€ telecom_churn_processed.csv # å¤„ç†åŽçš„æ•°æ®
+â”œâ”€â”€ analysis_summary.txt # åˆ†æžç»“æžœæ‘˜è¦
+â”œâ”€â”€ images/ # å¯è§†åŒ–å›¾è¡¨
+â”‚ â”œâ”€â”€ churn_overview.png # æµå¤±æ¦‚è§ˆ
+â”‚ â”œâ”€â”€ demographic_analysis.png # äººå£ç‰¹å¾åˆ†æž
+â”‚ â”œâ”€â”€ service_analysis.png # æœåŠ¡ä½¿ç”¨åˆ†æž
+â”‚ â”œâ”€â”€ contract_payment_analysis.png # åˆåŒæ”¯ä»˜åˆ†æž
+â”‚ â”œâ”€â”€ financial_analysis.png # è´¢åŠ¡æŒ‡æ ‡åˆ†æž
+â”‚ â””â”€â”€ correlation_analysis.png # ç›¸å…³æ€§åˆ†æž
+â”œâ”€â”€ requirements.txt # ä¾èµ–åŒ…åˆ—è¡¨
+â””â”€â”€ README.md # é¡¹ç›®è¯´æ˜Ž
 
 
-## ¼¼ÊõÕ»
+## æŠ€æœ¯æ ˆ
 - Python 3.8+
-- Pandas (Êý¾Ý´¦Àí)
-- Matplotlib & Seaborn (Êý¾Ý¿ÉÊÓ»¯)
-- NumPy (ÊýÖµ¼ÆËã)
+- Pandas (æ•°æ®å¤„ç†)
+- Matplotlib & Seaborn (æ•°æ®å¯è§†åŒ–)
+- NumPy (æ•°å€¼è®¡ç®—)
 
-## Êý¾ÝÀ´Ô´
-Êý¾Ý¼¯À´×ÔKaggleµÄTelco Customer ChurnÊý¾Ý¼¯£¬°üº¬7043ÃûµçÐÅ¿Í»§µÄÐÅÏ¢¡£
+## æ•°æ®æ¥æº
+æ•°æ®é›†æ¥è‡ªKaggleçš„Telco Customer Churnæ•°æ®é›†ï¼ŒåŒ…å«7043åç”µä¿¡å®¢æˆ·çš„ä¿¡æ¯ã€‚
 
-## ·ÖÎöÁ÷³Ì
-1. Êý¾Ý¼ÓÔØÓëÌ½Ë÷: ¼ÓÔØÊý¾Ý£¬²é¿´Êý¾Ý½á¹¹£¬Ê¶±ðÊý¾ÝÖÊÁ¿ÎÊÌâ
-2. Êý¾ÝÇåÏ´ÓëÔ¤´¦Àí: ´¦ÀíÈ±Ê§Öµ£¬×ª»»Êý¾ÝÀàÐÍ£¬´¦ÀíÒì³£Öµ
-3. Ì½Ë÷ÐÔÊý¾Ý·ÖÎö: Í³¼ÆÃèÊö£¬·Ö²¼·ÖÎö£¬Ïà¹ØÐÔ·ÖÎö
-4. ¶àÎ¬¶È¿ÉÊÓ»¯·ÖÎö: ÈË¿ÚÍ³¼Æ¡¢·þÎñÊ¹ÓÃ¡¢ºÏÍ¬ÀàÐÍ¡¢²ÆÎñÖ¸±êµÈÎ¬¶È
-5. ÒµÎñ¶´²ìÌáÈ¡: Ê¶±ð¹Ø¼üÁ÷Ê§ÒòËØ£¬Ìá³öÒµÎñ½¨Òé
-6. ½á¹ûÊä³ö: Éú³É¿ÉÊÓ»¯Í¼±íºÍ·ÖÎö±¨¸æ
+## åˆ†æžæµç¨‹
+1. æ•°æ®åŠ è½½ä¸ŽæŽ¢ç´¢: åŠ è½½æ•°æ®ï¼ŒæŸ¥çœ‹æ•°æ®ç»“æž„ï¼Œè¯†åˆ«æ•°æ®è´¨é‡é—®é¢˜
+2. æ•°æ®æ¸…æ´—ä¸Žé¢„å¤„ç†: å¤„ç†ç¼ºå¤±å€¼ï¼Œè½¬æ¢æ•°æ®ç±»åž‹ï¼Œå¤„ç†å¼‚å¸¸å€¼
+3. æŽ¢ç´¢æ€§æ•°æ®åˆ†æž: ç»Ÿè®¡æè¿°ï¼Œåˆ†å¸ƒåˆ†æžï¼Œç›¸å…³æ€§åˆ†æž
+4. å¤šç»´åº¦å¯è§†åŒ–åˆ†æž: äººå£ç»Ÿè®¡ã€æœåŠ¡ä½¿ç”¨ã€åˆåŒç±»åž‹ã€è´¢åŠ¡æŒ‡æ ‡ç­‰ç»´åº¦
+5. ä¸šåŠ¡æ´žå¯Ÿæå–: è¯†åˆ«å…³é”®æµå¤±å› ç´ ï¼Œæå‡ºä¸šåŠ¡å»ºè®®
+6. ç»“æžœè¾“å‡º: ç”Ÿæˆå¯è§†åŒ–å›¾è¡¨å’Œåˆ†æžæŠ¥å‘Š
 
-## ¹Ø¼ü·ÖÎöÎ¬¶È
-1. ×ÜÌåÁ÷Ê§·ÖÎö: ×ÜÌåÁ÷Ê§ÂÊ26.5%£¬Á÷Ê§¿Í»§1869ÈË
-2. ÈË¿ÚÍ³¼ÆÌØÕ÷: ÀÏÄêÈË¡¢ÎÞ°éÂÂ¡¢ÎÞ¼ÒÊôµÄ¿Í»§Á÷Ê§ÂÊ½Ï¸ß
-3. ·þÎñÊ¹ÓÃÌØÕ÷: ¹âÏË»¥ÁªÍø·þÎñÓÃ»§Á÷Ê§ÂÊ×î¸ß£¨41.9%£©
-4. ºÏÍ¬ÓëÖ§¸¶: ÔÂ¸¶ºÏÍ¬¡¢µç×ÓÖ§Æ±Ö§¸¶µÄ¿Í»§Á÷Ê§·çÏÕ×î¸ß
-5. ²ÆÎñÖ¸±ê: ¸ßÔÂ·Ñ¿Í»§Á÷Ê§ÂÊ½Ï¸ß£¬ÔÚÍøÊ±¼äÓëÁ÷Ê§ÂÊ³Ê¸ºÏà¹Ø
+## å…³é”®åˆ†æžç»´åº¦
+1. æ€»ä½“æµå¤±åˆ†æž: æ€»ä½“æµå¤±çŽ‡26.5%ï¼Œæµå¤±å®¢æˆ·1869äºº
+2. äººå£ç»Ÿè®¡ç‰¹å¾: è€å¹´äººã€æ— ä¼´ä¾£ã€æ— å®¶å±žçš„å®¢æˆ·æµå¤±çŽ‡è¾ƒé«˜
+3. æœåŠ¡ä½¿ç”¨ç‰¹å¾: å…‰çº¤äº’è”ç½‘æœåŠ¡ç”¨æˆ·æµå¤±çŽ‡æœ€é«˜ï¼ˆ41.9%ï¼‰
+4. åˆåŒä¸Žæ”¯ä»˜: æœˆä»˜åˆåŒã€ç”µå­æ”¯ç¥¨æ”¯ä»˜çš„å®¢æˆ·æµå¤±é£Žé™©æœ€é«˜
+5. è´¢åŠ¡æŒ‡æ ‡: é«˜æœˆè´¹å®¢æˆ·æµå¤±çŽ‡è¾ƒé«˜ï¼Œåœ¨ç½‘æ—¶é—´ä¸Žæµå¤±çŽ‡å‘ˆè´Ÿç›¸å…³
 
-## Ö÷Òª·¢ÏÖ
-1. ¸ßÁ÷Ê§ÈºÌåÌØÕ÷:
-   - Ê¹ÓÃ¹âÏË»¥ÁªÍø·þÎñ
-   - ²ÉÓÃÔÂ¸¶ºÏÍ¬
-   - Ê¹ÓÃµç×ÓÖ§Æ±Ö§¸¶
-   - ÔÚÍøÊ±¼äÉÙÓÚ12¸öÔÂ
+## ä¸»è¦å‘çŽ°
+1. é«˜æµå¤±ç¾¤ä½“ç‰¹å¾:
+   - ä½¿ç”¨å…‰çº¤äº’è”ç½‘æœåŠ¡
+   - é‡‡ç”¨æœˆä»˜åˆåŒ
+   - ä½¿ç”¨ç”µå­æ”¯ç¥¨æ”¯ä»˜
+   - åœ¨ç½‘æ—¶é—´å°‘äºŽ12ä¸ªæœˆ
 
-2. µÍÁ÷Ê§ÈºÌåÌØÕ÷:
-   - Ê¹ÓÃÁ½ÄêÆÚºÏÍ¬
-   - ²ÉÓÃ×Ô¶¯Ö§¸¶·½Ê½
-   - Ê¹ÓÃDSL»¥ÁªÍø·þÎñ
-   - ÔÚÍøÊ±¼ä³¬¹ý24¸öÔÂ
+2. ä½Žæµå¤±ç¾¤ä½“ç‰¹å¾:
+   - ä½¿ç”¨ä¸¤å¹´æœŸåˆåŒ
+   - é‡‡ç”¨è‡ªåŠ¨æ”¯ä»˜æ–¹å¼
+   - ä½¿ç”¨DSLäº’è”ç½‘æœåŠ¡
+   - åœ¨ç½‘æ—¶é—´è¶…è¿‡24ä¸ªæœˆ
 
-## ÒµÎñ½¨Òé
-1. ¿Í»§·Ö²ã¹ÜÀí: Õë¶Ô¸ßÁ÷Ê§·çÏÕ¿Í»§ÖÆ¶¨Ö÷¶¯¸ÉÔ¤²ßÂÔ
-2. ²úÆ·ÓÅ»¯: ÍÆ¹ã³¤ÆÚºÏÍ¬Ì×²Í£¬ÓÅ»¯¹âÏË·þÎñÌåÑé
-3. Ö§¸¶·½Ê½Òýµ¼: ¹ÄÀø¿Í»§²ÉÓÃ×Ô¶¯Ö§¸¶·½Ê½
-4. ÐÂ¿Í»§¹Ø»³: ¼ÓÇ¿ÐÂ¿Í»§Ç°6¸öÔÂµÄ¹ØÏµÎ¬»¤
+## ä¸šåŠ¡å»ºè®®
+1. å®¢æˆ·åˆ†å±‚ç®¡ç†: é’ˆå¯¹é«˜æµå¤±é£Žé™©å®¢æˆ·åˆ¶å®šä¸»åŠ¨å¹²é¢„ç­–ç•¥
+2. äº§å“ä¼˜åŒ–: æŽ¨å¹¿é•¿æœŸåˆåŒå¥—é¤ï¼Œä¼˜åŒ–å…‰çº¤æœåŠ¡ä½“éªŒ
+3. æ”¯ä»˜æ–¹å¼å¼•å¯¼: é¼“åŠ±å®¢æˆ·é‡‡ç”¨è‡ªåŠ¨æ”¯ä»˜æ–¹å¼
+4. æ–°å®¢æˆ·å…³æ€€: åŠ å¼ºæ–°å®¢æˆ·å‰6ä¸ªæœˆçš„å…³ç³»ç»´æŠ¤
 
-## Ê¹ÓÃ·½·¨
+## ä½¿ç”¨æ–¹æ³•
 
-### »·¾³×¼±¸
+### çŽ¯å¢ƒå‡†å¤‡
 ```bash
 pip install -r requirements.txt
 
-ÔËÐÐ·ÖÎö
+### è¿è¡Œåˆ†æž
 python telecom_churn_analysis.py
 
-²é¿´½á¹û
-   - ·ÖÎö½á¹û½«Êä³öµ½¿ØÖÆÌ¨		
-   - ¿ÉÊÓ»¯Í¼±í½«±£´æµ½imagesÎÄ¼þ¼Ð
-   - ´¦ÀíºóµÄÊý¾Ý½«±£´æÎªtelecom_churn_processed.csv
-   - ·ÖÎöÕªÒª½«±£´æÎªanalysis_summary.txt
+æŸ¥çœ‹ç»“æžœ
+   - åˆ†æžç»“æžœå°†è¾“å‡ºåˆ°æŽ§åˆ¶å°		
+   - å¯è§†åŒ–å›¾è¡¨å°†ä¿å­˜åˆ°imagesæ–‡ä»¶å¤¹
+   - å¤„ç†åŽçš„æ•°æ®å°†ä¿å­˜ä¸ºtelecom_churn_processed.csv
+   - åˆ†æžæ‘˜è¦å°†ä¿å­˜ä¸ºanalysis_summary.txt
 
-ÎÄ¼þËµÃ÷
-   - telecom_churn_analysis.py: Ö÷·ÖÎö½Å±¾£¬°üº¬ÍêÕûµÄÊý¾Ý´¦ÀíºÍ·ÖÎöÁ÷³Ì
-   - WA_Fn-UseC_-Telco-Customer-Churn.csv: Ô­Ê¼Êý¾Ý¼¯£¬À´×ÔKaggle
-   - telecom_churn_processed.csv: ÇåÏ´ºÍ´¦ÀíºóµÄÊý¾Ý¼¯
-   - analysis_summary.txt: ·ÖÎö¹Ø¼ü·¢ÏÖºÍÒµÎñ½¨ÒéÕªÒª
-   - images/: °üº¬ËùÓÐÉú³ÉµÄ¿ÉÊÓ»¯Í¼±í
+æ–‡ä»¶è¯´æ˜Ž
+   - telecom_churn_analysis.py: ä¸»åˆ†æžè„šæœ¬ï¼ŒåŒ…å«å®Œæ•´çš„æ•°æ®å¤„ç†å’Œåˆ†æžæµç¨‹
+   - WA_Fn-UseC_-Telco-Customer-Churn.csv: åŽŸå§‹æ•°æ®é›†ï¼Œæ¥è‡ªKaggle
+   - telecom_churn_processed.csv: æ¸…æ´—å’Œå¤„ç†åŽçš„æ•°æ®é›†
+   - analysis_summary.txt: åˆ†æžå…³é”®å‘çŽ°å’Œä¸šåŠ¡å»ºè®®æ‘˜è¦
+   - images/: åŒ…å«æ‰€æœ‰ç”Ÿæˆçš„å¯è§†åŒ–å›¾è¡¨
